@@ -10,12 +10,23 @@ font-family: 'Unna', serif;*/
   --main-color: #7c99ac;
   --second-color: #92a9bd;
   --shading-color: #ffefef;
+  --header-font-family: "Unna", serif;
+}
+
+.hero {
+  text-align: center;
 }
 
 h1 {
   color: var(--main-text);
-  font-family: "Unna", serif;
-  text-align: center;
+  font-family: var(--header-font-family);
+  font-size: 75px !important;
+}
+
+h2 {
+  color: var(--main-text);
+  font-family: var(--header-font-family);
+  font-size: 36px !important;
 }
 
 footer {
