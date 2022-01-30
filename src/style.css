@@ -1,14 +1,14 @@
 /* light green color D3DEDC (RGB 211, 222, 220) - change to #e6eceb
 pink color shading-color
-dark blue main color
-med blue second color
+dark blue main color - change to 50616d
+med blue second color 92a9b - change to 5c92c2
 
 font-family: 'Arapey', serif;
 font-family: 'Unna', serif;*/
 
 :root {
-  --main-color: #7c99ac;
-  --second-color: #92a9bd;
+  --main-color: #50616d;
+  --second-color: #5c92c2;
   --shading-color: #ffefef;
   --header-font-family: "Unna", serif;
 }
@@ -19,31 +19,40 @@ font-family: 'Unna', serif;*/
   margin: 50px 100px;
   padding: 40px;
   background: #e6eceb;
+  border-radius: 3px;
 }
 
 h1 {
-  color: var(--main-text);
+  color: var(--main-color);
   font-size: 75px;
   line-height: 50px;
 }
 
 h2 {
-  color: var(--main-text);
+  color: var(--main-color);
   font-size: 42px;
+}
+
+.homepage-content {
+  margin: 50px 100px;
+  padding: 40px;
+  border: 1px solid var(--second-color);
+  border-radius: 3px;
 }
 
 .container {
   text-align: center;
   font-family: "Arapey", serif;
+  color: var(--second-color);
 }
 
 .project-link {
   padding: 15px 20px;
-  color: var(--main-color);
+  color: var(--second-color);
   text-align: center;
   text-decoration: none;
   background: rgba(211, 222, 220, 0.5);
-  border: solid 1px;
+  border: solid 1px var(--second-color);
   border-radius: 4px;
 }
 
@@ -67,7 +76,6 @@ h2 {
   }
 
   h2 {
-    color: var(--main-text);
     font-size: 26px;
   }
   .project-link {
