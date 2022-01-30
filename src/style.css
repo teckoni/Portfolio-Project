@@ -1,0 +1,19 @@
+/* light green color D3DEDC
+pink color shading-color
+dark blue main color
+med blue second color
+
+font-family: 'Arapey', serif;
+font-family: 'Unna', serif;*/
+
+:root {
+  --main-color: #7c99ac;
+  --second-color: #92a9bd;
+  --shading-color: #ffefef;
+}
+
+h1 {
+  color: var(--main-text);
+  font-family: "Unna", serif;
+  text-align: center;
+}
