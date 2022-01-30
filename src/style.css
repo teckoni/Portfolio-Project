@@ -47,6 +47,14 @@ h2 {
   border-radius: 4px;
 }
 
+:hover .project-link {
+  cursor: crosshair;
+}
+
+:hover i {
+  cursor: crosshair;
+}
+
 @media (max-width: 800px) {
   .hero {
     text-align: center;
