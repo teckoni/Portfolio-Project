@@ -13,7 +13,9 @@ font-family: 'Unna', serif;*/
   --header-font-family: "Unna", serif;
 }
 
-.hero {
+.hero,
+.about-hero,
+.contact-hero {
   text-align: right;
   font-family: var(--header-font-family);
   margin: 50px 100px;
@@ -33,16 +35,20 @@ h2 {
   font-size: 42px;
 }
 
-.homepage-content {
+.homepage-content,
+.about-content,
+.contact-content {
   margin: 50px 100px;
   padding: 40px;
   border: 1px solid var(--second-color);
   border-radius: 3px;
 }
 
-.container {
+.container,
+.contact-content {
   text-align: center;
   font-family: "Arapey", serif;
+  font-size: 18px;
   color: var(--second-color);
 }
 
@@ -56,20 +62,25 @@ h2 {
   border-radius: 4px;
 }
 
-:hover .project-link {
-  cursor: crosshair;
+.contact-link {
+  color: var(--second-color);
 }
 
-:hover i {
+:hover .project-link,
+.icon-link,
+.contact-link {
   cursor: crosshair;
 }
 
 @media (max-width: 800px) {
-  .hero {
+  .hero,
+  .about-hero,
+  .contact-hero {
     text-align: center;
     margin: 40px 50px;
     padding: 10px;
   }
+
   h1 {
     font-size: 44px;
     line-height: 30px;
@@ -86,7 +97,9 @@ h2 {
     padding: 10px 15px;
   }
 
-  .homepage-content {
+  .homepage-content,
+  .about-content,
+  .contact-content {
     margin: 40px 50px;
     padding: 10px;
     border: 1px solid var(--second-color);
@@ -98,4 +111,20 @@ footer {
   text-align: center;
   font-size: 40px;
   margin: 80px 40px;
+}
+
+.open-source {
+  font-family: "Arapey", serif;
+  color: var(--second-color);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.a-open-source {
+  color: var(--second-color);
+}
+
+:hover .a-open-source {
+  cursor: crosshair;
+  color: var(--main-color);
 }
