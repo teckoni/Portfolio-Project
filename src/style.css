@@ -1,4 +1,4 @@
-/* light green color D3DEDC - change to #e6eceb
+/* light green color D3DEDC (RGB 211, 222, 220) - change to #e6eceb
 pink color shading-color
 dark blue main color
 med blue second color
@@ -29,7 +29,46 @@ h1 {
 
 h2 {
   color: var(--main-text);
-  font-size: 36px !important;
+  font-size: 42px !important;
+}
+
+.container {
+  text-align: center;
+  font-family: "Arapey", serif;
+}
+
+.project-link {
+  padding: 15px 20px;
+  color: var(--main-color);
+  text-align: center;
+  text-decoration: none;
+  background: rgba(211, 222, 220, 0.5);
+  border: solid 1px;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    text-align: center;
+    margin: 40px 50px;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 44px !important;
+    line-height: 30px !important;
+  }
+
+  h2 {
+    color: var(--main-text);
+    font-size: 26px !important;
+  }
+  .project-link {
+    padding: 10px 15px;
+  }
+
+  p {
+    padding: 10px 15px;
+  }
 }
 
 footer {
