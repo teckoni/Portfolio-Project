@@ -85,6 +85,13 @@ h2 {
   p {
     padding: 10px 15px;
   }
+
+  .homepage-content {
+    margin: 40px 50px;
+    padding: 10px;
+    border: 1px solid var(--second-color);
+    border-radius: 3px;
+  }
 }
 
 footer {
