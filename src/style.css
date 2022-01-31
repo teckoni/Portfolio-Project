@@ -74,7 +74,7 @@ p.open-source a {
   cursor: crosshair;
 }
 
-:hover p.open-source a {
+p.open-source a:hover {
   color: var(--main-color);
 }
 
