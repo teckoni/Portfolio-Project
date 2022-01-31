@@ -73,6 +73,10 @@ h2 {
 .a-open-source {
   cursor: crosshair;
 }
+.skill-img {
+  max-height: 80px;
+  margin: 0 auto;
+}
 
 @media (max-width: 800px) {
   .hero {
@@ -108,7 +112,7 @@ h2 {
 footer {
   text-align: center;
   font-size: 40px;
-  margin: 80px 40px;
+  margin: 40px;
 }
 
 .open-source {
