@@ -15,7 +15,8 @@ font-family: 'Unna', serif;*/
 
 .hero,
 .about-hero,
-.contact-hero {
+.contact-hero,
+.portfolio-hero {
   text-align: right;
   font-family: var(--header-font-family);
   margin: 50px 100px;
@@ -37,7 +38,8 @@ h2 {
 
 .homepage-content,
 .about-content,
-.contact-content {
+.contact-content,
+.portfolio-content {
   margin: 50px 100px;
   padding: 40px;
   border: 1px solid var(--second-color);
@@ -68,14 +70,17 @@ h2 {
 
 :hover .project-link,
 .icon-link,
-.contact-link {
+.contact-link,
+.portfolio-link,
+.a-open-source {
   cursor: crosshair;
 }
 
 @media (max-width: 800px) {
   .hero,
   .about-hero,
-  .contact-hero {
+  .contact-hero,
+  .portfolio-hero {
     text-align: center;
     margin: 40px 50px;
     padding: 10px;
@@ -99,7 +104,8 @@ h2 {
 
   .homepage-content,
   .about-content,
-  .contact-content {
+  .contact-content,
+  .portfolio-content {
     margin: 40px 50px;
     padding: 10px;
     border: 1px solid var(--second-color);
@@ -122,9 +128,4 @@ footer {
 
 .a-open-source {
   color: var(--second-color);
-}
-
-:hover .a-open-source {
-  cursor: crosshair;
-  color: var(--main-color);
 }
