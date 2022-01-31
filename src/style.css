@@ -1,11 +1,3 @@
-/* light green color D3DEDC (RGB 211, 222, 220) - change to #e6eceb
-pink color shading-color
-dark blue main color - change to 50616d
-med blue second color 92a9b - change to 5c92c2
-
-font-family: 'Arapey', serif;
-font-family: 'Unna', serif;*/
-
 :root {
   --main-color: #50616d;
   --second-color: #5c92c2;
@@ -13,10 +5,7 @@ font-family: 'Unna', serif;*/
   --header-font-family: "Unna", serif;
 }
 
-.hero,
-.about-hero,
-.contact-hero,
-.portfolio-hero {
+.hero {
   text-align: right;
   font-family: var(--header-font-family);
   margin: 50px 100px;
@@ -36,10 +25,7 @@ h2 {
   font-size: 42px;
 }
 
-.homepage-content,
-.about-content,
-.contact-content,
-.portfolio-content {
+.content {
   margin: 50px 100px;
   padding: 40px;
   border: 1px solid var(--second-color);
@@ -77,10 +63,7 @@ h2 {
 }
 
 @media (max-width: 800px) {
-  .hero,
-  .about-hero,
-  .contact-hero,
-  .portfolio-hero {
+  .hero {
     text-align: center;
     margin: 40px 50px;
     padding: 10px;
@@ -102,10 +85,7 @@ h2 {
     padding: 10px 15px;
   }
 
-  .homepage-content,
-  .about-content,
-  .contact-content,
-  .portfolio-content {
+  .content {
     margin: 40px 50px;
     padding: 10px;
     border: 1px solid var(--second-color);
