@@ -14,19 +14,15 @@ body {
 
 .song {
   font-size: 20px;
+  color: var(--main-color);
 }
-
 .navbar-custom {
   background: rgba(211, 222, 220, 0.4);
 }
 
 a.active {
-  color: var(--main-color);
   font-size: 20px;
   line-height: 25px;
-}
-.nav-link {
-  color: var(--second-color);
 }
 
 .hero {
