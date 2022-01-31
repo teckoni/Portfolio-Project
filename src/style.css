@@ -70,9 +70,14 @@ h2 {
 .icon-link,
 .contact-link,
 .portfolio-link,
-.a-open-source {
+p.open-source a {
   cursor: crosshair;
 }
+
+:hover p.open-source a {
+  color: var(--main-color);
+}
+
 .skill-img {
   max-height: 80px;
   margin: 0 auto;
@@ -122,6 +127,7 @@ footer {
   font-style: italic;
 }
 
-.a-open-source {
+p.open-source a {
   color: var(--second-color);
+  text-decoration: none;
 }
