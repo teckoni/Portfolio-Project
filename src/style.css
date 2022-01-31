@@ -5,10 +5,34 @@
   --header-font-family: "Unna", serif;
 }
 
+body {
+  color: var(--second-color);
+  text-align: center;
+  font-family: "Arapey", serif;
+  font-size: 16px;
+}
+
+.song {
+  font-size: 20px;
+}
+
+.navbar-custom {
+  background: rgba(211, 222, 220, 0.4);
+}
+
+a.active {
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 25px;
+}
+.nav-link {
+  color: var(--second-color);
+}
+
 .hero {
   text-align: right;
   font-family: var(--header-font-family);
-  margin: 50px 100px;
+  margin: 80px 100px 50px 100px;
   padding: 40px;
   background: #e6eceb;
   border-radius: 3px;
@@ -30,14 +54,6 @@ h2 {
   padding: 40px;
   border: 1px solid var(--second-color);
   border-radius: 3px;
-}
-
-.container,
-.contact-content {
-  text-align: center;
-  font-family: "Arapey", serif;
-  font-size: 18px;
-  color: var(--second-color);
 }
 
 .project-link {
@@ -65,7 +81,7 @@ h2 {
 @media (max-width: 800px) {
   .hero {
     text-align: center;
-    margin: 40px 50px;
+    margin: 70px 50px 40px 50px;
     padding: 10px;
   }
 
